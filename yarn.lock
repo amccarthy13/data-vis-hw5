@@ -1243,9 +1243,9 @@ browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
     electron-to-chromium "^1.2.7"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -1838,6 +1838,11 @@ d3-format@1, d3-format@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-1.4.4.tgz#356925f28d0fd7c7983bfad593726fce46844030"
   integrity sha512-TWks25e7t8/cqctxCmxpUuzZN11QxIA7YrMbram94zMQ0PXjE4LVIMe/f6a4+xxL8HQ3OsAFULOINQi1pE62Aw==
+
+d3-hexbin@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/d3-hexbin/-/d3-hexbin-0.2.2.tgz#9c5837dacfd471ab05337a9e91ef10bfc4f98831"
+  integrity sha512-KS3fUT2ReD4RlGCjvCEm1RgMtp2NFZumdMu4DBzQK8AZv3fXRM6Xm8I4fSU07UXvH4xxg03NwWKWdvxfS/yc4w==
 
 d3-interpolate@1, d3-interpolate@^1.2.0:
   version "1.4.0"
@@ -3914,6 +3919,11 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+node-bin-setup@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.0.tgz#9df94c41335a8f41958a639b2736f860582a209c"
+  integrity sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
+
 node-forge@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
@@ -3947,6 +3957,13 @@ node-libs-browser@^2.2.1:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
+
+node@^14.2.0:
+  version "14.20.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-14.20.0.tgz#43ce8731d97ae79dff2f227e764938025200796d"
+  integrity sha512-uEZWEG6HuGbrRi6wEZIna4yWj197JByvJkMmi8Yxx9Z6y8GazVy0p2qYOwLYJqQRf4N37+eL+FBIdhT1mHGpFA==
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 normalize-path@^2.1.1:
   version "2.1.1"
@@ -5309,9 +5326,9 @@ source-map-support@^0.4.15:
     source-map "^0.5.6"
 
 source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha512-efyLRJDr68D9hBBNIPWFjhpFzURh+KJykQwvMyW5UiZzYwoF6l4YMMDIJJEyFWxWCqfyxLzz6tSfUFR+kXXsVQ==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -5603,9 +5620,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.3.tgz#e33aa42461ced5238d352d2df2a67f21921f8d87"
-  integrity sha512-Lw+ieAXmY69d09IIc/yqeBqXpEQIpDGZqT34ui1QWXIUpR2RjbqEkT8X7Lgex19hslSqcWM5iMN2kM11eMsESQ==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
